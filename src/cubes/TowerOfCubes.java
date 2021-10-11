@@ -92,6 +92,7 @@ public class TowerOfCubes {
 
     public void setCubes(Cube[] cubes) {
         this.cubes = cubes;
+        this.maxCubes = cubes.length;
     }
 
     @Override
