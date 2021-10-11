@@ -90,6 +90,10 @@ public class TowerOfCubes {
         this.currentLength = currentLength;
     }
 
+    public Cube setAtIndex(int index) {
+        return cubes[index]; //can throw IndexOutOfBoundsException
+    }
+
     public void setCubes(Cube[] cubes) {
         this.cubes = cubes;
         this.maxCubes = cubes.length;
